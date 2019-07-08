@@ -16,7 +16,16 @@ TASK 2: Which telephone number spent the longest time on the phone
 during the period? Don't forget that time spent answering a call is
 also time spent on the phone.
 Print a message:
-"<telephone number> spent the longest time, <total time> seconds, on the phone during 
-September 2016.".
+"<telephone number> spent the longest time, <total time> seconds,
+ on the phone during September 2016.".
 """
+# Variable to hold the longest time spent on the phone and its telephone number
 
+longest_time = 0
+longest_telephone_number = None
+
+# A dictionary that saves each number
+numbers_per_call = {}
+
+for call in calls:
+    
