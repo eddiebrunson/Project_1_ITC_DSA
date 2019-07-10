@@ -35,6 +35,6 @@ for row in calls:
 
     if row[1] not in differentNumbers:
         differentNumbers.append(row[1])
+        
 print("There are {len(differentNumbers)} different telephone numbers \
  in the records.")
-        

@@ -28,4 +28,14 @@ longest_telephone_number = None
 numbers_per_call = {}
 
 for call in calls:
-    
+
+
+
+
+
+
+
+
+
+print (f"{longest_telephone_number} spent the longest time, {longest_time} \
+seconds, on the phone during September 2016."

@@ -1,2 +1,6 @@
-# Project_1_ITC_DSA
-Project 1 DSAND
+# Project 1 Data Structures & Algorithms ND
+
+___
+
+
+## Project Overview

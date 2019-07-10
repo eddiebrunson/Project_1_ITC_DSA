@@ -23,9 +23,9 @@ Print messages:
 """
 
 first_texts = text[0]
-print(f"First record of texts, {first_texts[0]} texts {first_texts[1] + \
+print(f"First record of texts, {first_texts[0]} texts {first_texts[1] \
 at time {first_texts[2]}}")
 
 last_calls = calls[len(calls) - 1]
-print(f"Last record of calls, {last_calls[0]} calls {last_calls[1]} + \
+print(f"Last record of calls, {last_calls[0]} calls {last_calls[1]} \
 at time {last_calls[2]}, lasting {last_calls[3]} seconds")
